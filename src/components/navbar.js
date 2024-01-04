@@ -7,7 +7,7 @@ class Navbar extends HTMLElement {
     this.innerHTML = `
     <header id="header" class="header fixed-top d-flex align-items-center p-4">
     <div class="container-fluid d-flex align-items-center justify-content-between">
-        <a href="landing-page.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
             <h1>team</h1>
             <span>.</span>
         </a>
