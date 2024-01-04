@@ -14,7 +14,7 @@ class Navbar extends HTMLElement {
         <nav id="navmenu" class="navmenu">
             <ul>
                 <li><a href="${baseDir}/product.html"${currentPage === 'product' ? ' class="active"' : ''}>Product</a></li>
-                <li><a href="${baseDir}/blog"${currentPage === 'blog' ? ' class="active"' : ''}>Blog</a></li>
+                <li><a href="${baseDir}/blog.html"${currentPage === 'blog' ? ' class="active"' : ''}>Blog</a></li>
                 <li><a href="${baseDir}/support.html"${currentPage === 'support' ? ' class="active"' : ''}>Support</a></li>
                 <li><a href="${baseDir}/login.html"${currentPage === 'login' ? ' class="active"' : ''}>Login</a></li>
                 <a class="btn-getstarted" href="#" style="text-decoration: none">Get Access</a>
