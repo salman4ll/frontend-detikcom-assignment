@@ -2,7 +2,7 @@ class Navbar extends HTMLElement {
   connectedCallback() {
     // Mendapatkan nama halaman dari URL
     const currentPage = window.location.pathname.split('/').pop().split('.')[0];
-    const baseDir = "/src"; // Sesuaikan dengan struktur direktori proyek Anda
+    const baseDir = "/"; // Sesuaikan dengan struktur direktori proyek Anda
 
     this.innerHTML = `
     <header id="header" class="header fixed-top d-flex align-items-center p-4">
